@@ -1,0 +1,25 @@
+[project]
+name = "defillama"
+version = "0.1.0"
+description = "A Python client for the DefiLlama API"
+readme = "README.md"
+authors = [
+    { name = "caentzminger", email = "112503481+caentzminger@users.noreply.github.com" }
+]
+requires-python = ">=3.10"
+dependencies = [
+    "httpx>=0.28.1",
+    "pydantic>=2.11.7",
+]
+
+[dependency-groups]
+dev = [
+    "pytest>=8.4.1",
+    "pytest-asyncio>=1.0.0",
+    "ruff>=0.12.2",
+    "ty>=0.0.1a13",
+]
+
+[build-system]
+requires = ["uv_build>=0.7.19,<0.8"]
+build-backend = "uv_build"
