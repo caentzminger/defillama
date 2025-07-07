@@ -1,5 +1,7 @@
 # DefiLlama Python Client
 
+>Note from author: **WARNING** this repo was almost entirely *vibe-coded* using `gemini-cli` and Cursor. Please use at your own risk as I'm pretty sure there are some issues with the data validation (not really sure, I'm VIBE CODING, GET OFF MY BACK!!!). 
+
 A Python client for the DefiLlama API with full type safety and Pydantic validation. Supports both synchronous and asynchronous operations.
 
 ## Features
